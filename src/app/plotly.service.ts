@@ -18,6 +18,6 @@ export class PlotlyService {
       title:title
     };
     
-    Plotly.newPlot(plotDiv, [trace], layout);     
+    Plotly.newPlot(plotDiv, [trace], layout,);     
   }
 }
